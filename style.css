@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This styles the navbar */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 470px;
+}
+
+
+.header ul, a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 16px;
+    
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* This ends the navbar styling */
+
+
+/* This starts the Hero section styling */
+
+.hero-page {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #e5e7eb;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #e5e7eb;
+    border: none;
+}
+
+.hero-info {
+    padding: 40px 175px;
+}
+
+.image {
+    height: 200px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    margin: 50px 125px;
+}
+
+/* this ends the hero-content styling */
+
+
+/* This starts the information page */
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 52px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.text {
+    font-size: 18px;
+    color: #5f6572;
+}
+
+/* this ends the information page */
+
+ /* Quote Section */ 
+
+.quote-container {
+    background-color: #E5E7EB;
+    margin-top: 150px;
+    padding: 100px 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: 'Roboto' sans-serif;
+    font-style: italic;
+    color: #1F2937;
+    width: auto;
+
+}
+
+.author {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 532px;
+ 
+}
+
+/* End of the quote section */
+
+/* Call to Action Section */ 
+
+.end-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.card {
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+}
+
+.action-text {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.sub-and-button {
+    display: flex;
+    gap: 300px;
+    padding-left: 70px;
+}
+
+.more-text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    padding-top: 5px;
+}
+
+.call-button {
+    color: #e5e7eb;
+    border: solid 2px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-right: 75px;
+    margin-top: -15px;
+}
+
+/* end of the call to action styling */
+
+/* start of the footer styling */
+
+.footer-background {
+    background-color: #1F2937;
+    padding: 25px;
+
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
