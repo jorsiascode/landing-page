@@ -43,10 +43,9 @@
 .hero-page {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
-
 }
 
 h1 {
@@ -62,6 +61,7 @@ p {
 }
 
 button {
+    margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     background-color: #3882f6;
@@ -72,18 +72,21 @@ button {
 }
 
 .hero-info {
-    padding: 40px 175px;
+    padding-top: 30px;
+    padding-left: 455px;
 }
 
 .image {
-    height: 200px;
+    height: 220px;
     width: 500px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    margin: 50px 125px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 455px;
 }
 
 /* this ends the hero-content styling */
